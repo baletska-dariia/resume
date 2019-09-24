@@ -1,0 +1,16 @@
+.ui.label.margin {
+    margin: 0.3rem;
+}
+
+.ui.label.margin:first-child {
+    margin: 0.3rem;
+}
+
+.ui.label.position {
+    position: relative;
+    margin: 1rem 0.7rem;
+}
+
+.ui.label.position .floating.ui.label {
+    top: -1.5rem;
+}
