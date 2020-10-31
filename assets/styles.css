@@ -260,10 +260,7 @@ main:nth-last-child(3) {
 /* Article */
 article {
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -695,6 +692,10 @@ article {
     vertical-align: text-bottom;
 }
 
+.contacts li a .icon {
+    margin-right: 4px;
+}
+
 @media only screen and (max-width: 767px) {
 
     .name,
@@ -875,6 +876,10 @@ li.bordered>ul>details>div {
 
 .timeline>li p {
     margin: 0;
+}
+
+.timeline .experience-description {
+    margin:4px 0;
 }
 
 /* Tags */

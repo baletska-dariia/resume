@@ -1,308 +1,304 @@
 <!doctype html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
 
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148378065-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148378065-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-            gtag('config', 'UA-148378065-1');
-        </script>
+        gtag('js', new Date());
 
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Front-end developer">
-        <meta name="google" content="nositelinkssearchbox">
-        <meta name="google" content="notranslate">
-        <meta name="googlebot" content="index,follow">
-        <meta name="robots" content="index,follow">
-        <meta name="subject" content="Resume">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="white">
-        <meta property="og:description" content="Front-end developer">
-        <meta property="og:image:alt" content="Screenshot of the homepage">
-        <meta property="og:image:height" content="1800">
-        <meta property="og:image:type" content="image/png">
-        <meta property="og:image:width" content="2880">
-        <meta property="og:image" content="https://i.postimg.cc/MqGTNTFb/image.png">
-        <meta property="og:locale" content="en_US">
-        <meta property="og:title" content="Dariia Baletska &mdash; Résumé">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://resume.baletskayadariya.now.sh/">
-        <title>Baletska Dariia &mdash; CV</title>
-        <link rel="icon" type="image/png" href="./assets/images/favicon.png">
-        <link rel="me" href="baletskaya.dariya@gmail.com">
-        <link rel="me" href="https://github.com/baletska-dariia">
+        gtag('config', 'UA-148378065-1');
+    </script>
 
-        <link rel="stylesheet" href="./assets/styles.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Front-end developer">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    <meta name="googlebot" content="index,follow">
+    <meta name="robots" content="index,follow">
+    <meta name="subject" content="CV">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="white">
+    <meta property="og:description" content="Front-end developer">
+    <meta property="og:image:alt" content="Screenshot of the homepage">
+    <meta property="og:image:height" content="1800">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="2880">
+    <meta property="og:image" content="https://i.postimg.cc/MqGTNTFb/image.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Dariia Baletska &mdash; Résumé">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://resume.baletskayadariya.now.sh/">
+    <title>Baletska Dariia &mdash; CV</title>
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    <link rel="me" href="baletskaya.dariya@gmail.com">
+    <link rel="me" href="https://github.com/baletska-dariia">
+
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-    </head>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+</head>
 
-    <body>
-        <main>
-            <article>
-                <div class="page" style="border-color: #d3b19c">
-                    <div class="stackable grid">
-                        <div class="row">
-                            <div class="three wide center aligned column">
-                                <div class="avatar-wrapper" id="avatar">
-                                    <img class="ui medium circular image"
-                                        src="https://i.postimg.cc/fWrrpkxT/photo-2019-09-23-18-39-33.jpg">
-                                </div>
-                            </div>
-                            <div class="thirteen wide column">
-                                <div class="stackable grid">
-                                    <div class="sixteen wide column">
-                                        <h1 class="name">Baletska Dariia</h1>
-                                        <ul class="contacts">
-                                            <li><a><svg class="icon" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 430.114 430.114">
-                                                        <path
-                                                            d="M356.208,107.051c-1.531-5.738-4.64-11.852-6.94-17.205C321.746,23.704,261.611,0,213.055,0 C148.054,0,76.463,43.586,66.905,133.427v18.355c0,0.766,0.264,7.647,0.639,11.089c5.358,42.816,39.143,88.32,64.375,131.136	c27.146,45.873,55.314,90.999,83.221,136.106c17.208-29.436,34.354-59.259,51.17-87.933c4.583-8.415,9.903-16.825,14.491-24.857 c3.058-5.348,8.9-10.696,11.569-15.672c27.145-49.699,70.838-99.782,70.838-149.104v-20.262 C363.209,126.938,356.581,108.204,356.208,107.051z M214.245,199.193c-19.107,0-40.021-9.554-50.344-35.939 c-1.538-4.2-1.414-12.617-1.414-13.388v-11.852c0-33.636,28.56-48.932,53.406-48.932c30.588,0,54.245,24.472,54.245,55.06 C270.138,174.729,244.833,199.193,214.245,199.193z" />
-                                                    </svg></a> <span>ODESSA, UKRAINE</span></li>
-
-                                            <li>
-                                                <a rel="author" class="mail">
-                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 512 512">
-                                                        <path
-                                                            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-                                                        </path>
-                                                    </svg>
-                                                    <span>baletska.dariya@gmail.com</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://github.com/baletska-dariia" rel="author"
-                                                    target="_blank" class="github">
-                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 496 512">
-                                                        <path
-                                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-                                                    </svg>
-                                                    <span>baletska-dariia</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                    <div class="sixteen wide mobile only column">
-                                        <div class="divider"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="sixteen wide column">
-                                            <h2>CV</h2>
-                                            <div class="fat divider"></div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
+<body>
+<main>
+    <article>
+        <div class="page" style="border-color: #d3b19c">
+            <div class="stackable grid">
+                <div class="row">
+                    <div class="three wide center aligned column">
+                        <div class="avatar-wrapper" id="avatar">
+                            <img class="ui medium circular image"
+                                 alt="my-photo"
+                                 src="assets/images/photo.jpg">
                         </div>
-                        <div class="row">
-                            <div class="ten wide column">
-                                <section>
-                                    <h3>Education & Experience</h3>
-                                    <ul class="timeline">
-                                        <li>
-                                            <p><em>November 2019 &ndash; present</em></p>
-                                            <p><strong>Frontend Developer</strong> at <strong><a
-                                                        href="https://www.linkedin.com/company/powowai/"
-                                                        target="_blank">Powow
-                                                        AI</a></strong></p>
-                                            <ul>
-                                                <li>Working on the business platform for meetings analysis</li>
-                                                <li>Designing and implementing application features</li>
-                                                <li>Investigating performance issues and making optimizations</li>
-                                                <li>Engaged in planning and estimating,
-                                                    CI/CD
-                                                    processes, code reviews, design reviews.</li>
-                                                <li>Introduced Clean Architecture to the codebase</li>
-                                                <li>Created, applied and documented code style rules to the codebase
-                                                </li>
-                                                <li>Designed transition to Redux and implemented it
-                                                </li>
+                    </div>
+                    <div class="thirteen wide column">
+                        <div class="stackable grid">
+                            <div class="sixteen wide column">
+                                <h1 class="name">Baletska Dariia</h1>
+                                <ul class="contacts">
+                                    <li><a>
+                                        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 430.114 430.114">
+                                            <path
+                                                    d="M356.208,107.051c-1.531-5.738-4.64-11.852-6.94-17.205C321.746,23.704,261.611,0,213.055,0 C148.054,0,76.463,43.586,66.905,133.427v18.355c0,0.766,0.264,7.647,0.639,11.089c5.358,42.816,39.143,88.32,64.375,131.136	c27.146,45.873,55.314,90.999,83.221,136.106c17.208-29.436,34.354-59.259,51.17-87.933c4.583-8.415,9.903-16.825,14.491-24.857 c3.058-5.348,8.9-10.696,11.569-15.672c27.145-49.699,70.838-99.782,70.838-149.104v-20.262 C363.209,126.938,356.581,108.204,356.208,107.051z M214.245,199.193c-19.107,0-40.021-9.554-50.344-35.939 c-1.538-4.2-1.414-12.617-1.414-13.388v-11.852c0-33.636,28.56-48.932,53.406-48.932c30.588,0,54.245,24.472,54.245,55.06 C270.138,174.729,244.833,199.193,214.245,199.193z"/>
+                                        </svg>
+                                    </a> <span>Odessa, Ukraine</span></li>
 
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <p><em>July 2019 &ndash; September 2019</em></p>
-                                            <p><strong>Completed the JS-course</strong> at <strong><a
-                                                        href="https://academy.binary-studio.com" target="_blank">Binary
-                                                        Studio
-                                                        Academy</a></strong></p>
-                                            <ul>
-                                                <li>
-                                                    <a href="https://i.postimg.cc/7ZrKjcw5/20190924-3.png"
-                                                        target="_blank"><strong>the
-                                                            course covered</a></strong> JS, Node.js, Express.js,
-                                                    Passport.js, JWT, Socket.io, PostgreSQL, TypeORM/Sequelize,
-                                                    TypeScript, React,
-                                                    Redux, HTML5, SASS, Webpack, React Native, Git, Agile/Scrum
-                                                </li>
-                                                <li>worked in a team of 9 developers, 2 QAs and 2 mentors on the <a
-                                                        href="https://github.com/baletska-dariia/bsa-2019-fantasy"
-                                                        target="_blank"><strong>Fantasy
-                                                            Premier League</strong></a> project. This project was
-                                                    inspired by
-                                                    the <a href="http://fantasy.premierleague.com"
-                                                        target="_blank"><strong>English
-                                                            Premier League Fantasy Football
-                                                            application</strong></a>. Fantasy football is an online game
-                                                    where participants select a team of real players and all the results
-                                                    of the players totally depend on the statistics of those players in
-                                                    real
-                                                    games.
-                                                </li>
-                                                <li> During project development, I:
-                                                    <ul>
-                                                        <li>implemented authentication using
-                                                            <strong>Passport.js</strong></li>
-                                                        <li>worked with <strong>Express.js</strong> on the backend,
-                                                            implemented routes and some business-logic</li>
-                                                        <li>created components with <strong>React</strong> and
-                                                            <strong>Redux</strong> (Auth, Notification Centre, Team
-                                                            Selection)</li>
-                                                        <li>worked with <strong>Chart.js</strong> for displaying
-                                                            statistic info</li>
-                                                        <li>implemented drag&drop for team selection using
-                                                            <strong>ReactDND</strong> library</li>
-                                                        <li>implemented app and email notifications using
-                                                            <strong>Socket.io</strong>, <strong>nodemailer</strong>,
-                                                            <strong>node-scheduler</strong></li>
-                                                        <li>presented implemented features during demo to Product Owner
-                                                        </li>
-                                                    </ul>
-                                                </li>
+                                    <li>
+                                        <a rel="author" class="mail">
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                                                 viewBox="0 0 512 512">
+                                                <path
+                                                        d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                                                </path>
+                                            </svg>
+                                            <span>baletska.dariya@gmail.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/baletska-dariia" rel="author"
+                                           target="_blank" class="github">
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                                                 viewBox="0 0 496 512">
+                                                <path
+                                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                                            </svg>
+                                            <span>baletska-dariia</span>
+                                        </a>
+                                    </li>
+                                </ul>
 
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <p><em>26 <sup>th</sup>June 2019</em></p>
-                                            <p><a href="https://i.postimg.cc/nnnmC0sp/Zertifikat-Green-Campus-Projekttag-Baletska-mit-U-page-001.jpg"
-                                                    target="_blank"><strong>Took
-                                                        part in IT Conference</strong></a> at University of Applied
-                                                Science (Augsburg, Germany)</p>
-
-                                        </li>
-                                        <li>
-                                            <p><em>June 2018 &ndash; present</em></p>
-                                            <p><strong>Translator</strong> at <strong><a href="https://codeguida.com/"
-                                                        target="_blank">Codeguida</a></strong></p>
-                                            <ul>
-                                                <li>
-                                                    <a href="https://codeguida.com/post/1799"
-                                                        target="_blank"><strong>translating
-                                                            articles about frontend development from English to
-                                                            Ukranian</strong></a>
-                                                </li>
-                                                <li><a href="https://codeguida.com/post/2003"
-                                                        target="_blank"><strong>creating
-                                                            frontend-digests</strong></a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <p><em>September 2017 &ndash; present</em></p>
-                                            <p><strong>Student</strong> at the <strong>Odessa National Polytechnic
-                                                    University</strong></p>
-                                            <ul>
-                                                <li>
-                                                    <a href=" https://i.postimg.cc/Jzq1sQB6/20190924-4.png"
-                                                        target="_blank"><strong>took
-                                                            active part in technical conferences</strong></a></li>
-                                                <li><a href="https://i.postimg.cc/qJtz59Kp/20190924-6.png"
-                                                        target="_blank"><strong>was
-                                                            engaged in team projects</strong></a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </section>
                             </div>
-                            <div class="six wide column ">
-                                <section>
-                                    <h3>Tech Skills</h3>
-                                    <div class="tags small ">
-                                        <div class="ui label margin ">
-                                            HTML
-                                        </div>
-                                        <div class="ui label margin ">
-                                            CSS
-                                        </div>
-                                        <div class="ui label margin ">
-                                            SCSS
-                                        </div>
-                                        <div class="ui label margin ">
-                                            JS(ES6+)
-                                        </div>
-                                        <div class="ui label margin ">
-                                            REACT
-                                        </div>
-                                        <div class="ui label margin ">
-                                            MATERIAL UI REACT
-                                        </div>
-                                        <div class="ui label margin ">
-                                            REDUX
-                                        </div>
-                                        <div class="ui label margin ">
-                                            REDUX-THUNK
-                                        </div>
-                                        <div class="ui label margin ">
-                                            GRAPHQL
-                                        </div>
-                                        <div class="ui label margin ">
-                                            APOLLO GRAPHQL
-                                        </div>
-                                        <div class="ui label margin ">
-                                            REST
-                                        </div>
-                                        <div class="ui label margin ">
-                                            SQL
-                                        </div>
-                                        <div class="ui label margin ">
-                                            POSTGRESQL
-                                        </div>
-                                        <div class="ui label margin ">
-                                            GIT
-                                        </div>
-                                        <div class="ui label margin ">
-                                            DESIGN PATTERNS
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <h3>LANGUAGES</h3>
-                                    <div class="tags small ">
-                                        <div class="ui label position ">
-                                            ENGLISH
-                                            <div class="floating ui red label ">B2</div>
-                                        </div>
-                                        <div class="ui label position ">
-                                            GERMAN
-                                            <div class="floating ui yellow label ">A2</div>
-                                        </div>
-                                    </div>
-                                </section>
+                            <div class="sixteen wide mobile only column">
+                                <div class="divider"></div>
+                            </div>
+                            <div class="row">
+                                <div class="sixteen wide column">
+                                    <h2>CV</h2>
+                                    <div class="fat divider"></div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </article>
-        </main>
+                <div class="row">
+                    <div class="ten wide column">
+                        <section>
+                            <h3>Education & Experience</h3>
+                            <ul class="timeline">
+                                <li>
+                                    <p><em>November 2019 &ndash; present</em></p>
+                                    <p><strong>Frontend Developer</strong> at <strong><a
+                                            href="https://www.linkedin.com/company/powowai/"
+                                            target="_blank">Powow
+                                        AI</a></strong></p>
 
-        <script>
-            $('#avatar')
-                .transition('tada');
-        </script>
-    </body>
+                                    <p class="experience-description">Powow AI is a SaaS platform that uses proprietary
+                                        AI algorithms to transcribe and analyze operational meetings, transforming them
+                                        into actionable insights. The AI agent attends meetings and offers a transcript
+                                        of the discussion, sentiment analysis, follow-on actions, summaries, smart
+                                        meeting minutes and insights.</p>
+                                    <ul>
+                                        <li>Designing and implementing application features.</li>
+                                        <li>Investigating performance issues and making optimizations.</li>
+                                        <li>Engaged in planning and estimating, code reviews, design reviews.
+                                        </li>
+                                        <li>Refactored codebase: introduced layering approach.</li>
+                                        <li>Created, documented and applied code style rules to the codebase.
+                                        </li>
+                                        <li>Designed transition to Redux and implemented it.
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p><em>July 2019 &ndash; September 2019</em></p>
+                                    <p><strong>Completed the JS-course</strong> at <strong><a
+                                            href="https://academy.binary-studio.com" target="_blank">Binary
+                                        Studio
+                                        Academy</a></strong></p>
+                                    <p class="experience-description">
+                                        Worked on the <a
+                                            href="https://github.com/baletska-dariia/bsa-2019-fantasy"
+                                            target="_blank"><strong>Fantasy
+                                        Premier League</strong></a> project. This project was
+                                        inspired by the <a href="http://fantasy.premierleague.com"
+                                                           target="_blank"><strong>English
+                                        Premier League Fantasy Football
+                                        application</strong></a>.
+                                        The project is an online game
+                                        where participants select a team of real players and all the results
+                                        of the players totally depend on the statistics of those players in
+                                        real games.
+                                    </p>
+                                    <ul>
+                                        <li>Worked in a team of 9 developers, 2 QAs and 2 mentors.
+                                        </li>
+
+                                        <li>Implemented authentication using
+                                            <strong>Passport.js</strong>.
+                                        </li>
+                                        <li>Worked with <strong>Express.js</strong> on the backend,
+                                            implemented routes and some business-logic.
+                                        </li>
+                                        <li>Created components with <strong>React</strong> and
+                                            <strong>Redux</strong>.
+                                        </li>
+                                        <li>Worked with <strong>Chart.js</strong> for displaying
+                                            statistic info.
+                                        </li>
+                                        <li>Implemented drag&drop for team selection using
+                                            <strong>ReactDND</strong> library.
+                                        </li>
+                                        <li>Implemented app and email notifications using
+                                            <strong>Socket.io</strong>, <strong>nodemailer</strong>,
+                                            <strong>node-scheduler</strong>.
+                                        </li>
+                                        <li>Presented implemented features during demo to Product Owner.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p><em>26 <sup>th</sup>June 2019</em></p>
+                                    <p>
+                                        <a href="https://i.postimg.cc/nnnmC0sp/Zertifikat-Green-Campus-Projekttag-Baletska-mit-U-page-001.jpg"
+                                           target="_blank"><strong>Took
+                                            part in IT Conference</strong></a> at University of Applied
+                                        Science (Augsburg, Germany).</p>
+
+                                </li>
+                                <li>
+                                    <p><em>June 2018 &ndash; present</em></p>
+                                    <p><strong>Translator</strong> at <strong><a href="https://codeguida.com/"
+                                                                                 target="_blank">Codeguida</a></strong>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <a href="https://codeguida.com/post/1799"
+                                               target="_blank"><strong>Translating
+                                                articles about frontend development from English to
+                                                Ukranian</strong>.</a>
+                                        </li>
+                                        <li><a href="https://codeguida.com/post/2003"
+                                               target="_blank"><strong>Creating
+                                            frontend-digests</strong>.</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p><em>September 2017 &ndash; present</em></p>
+                                    <p><strong>Student</strong> at the <strong>Odessa National Polytechnic
+                                        University</strong></p>
+                                    <ul>
+                                        <li>
+                                            <a href=" https://i.postimg.cc/Jzq1sQB6/20190924-4.png"
+                                               target="_blank"><strong>Took
+                                                active part in technical conferences</strong></a>.
+                                        </li>
+                                        <li><a href="https://i.postimg.cc/qJtz59Kp/20190924-6.png"
+                                               target="_blank"><strong>Was
+                                            engaged in team projects</strong></a>.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="six wide column">
+                        <section>
+                            <h3>Tech Skills</h3>
+                            <div class="tags small">
+                                <div class="ui label margin">
+                                    JS
+                                </div>
+                                <div class="ui label margin">
+                                    HTML
+                                </div>
+                                <div class="ui label margin">
+                                    CSS
+                                </div>
+                                <div class="ui label margin">
+                                    DESIGN PATTERNS
+                                </div>
+                                <div class="ui label margin">
+                                    GRAPHQL
+                                </div>
+                                <div class="ui label margin">
+                                    GIT
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h3>Libraries</h3>
+                            <div class="ui label margin">
+                                REACT
+                            </div>
+                            <div class="ui label margin">
+                                REDUX
+                            </div>
+                            <div class="ui label margin">
+                                REDUX-THUNK
+                            </div>
+                            <div class="ui label margin">
+                                APOLLO GRAPHQL
+                            </div>
+                            <div class="ui label margin">
+                                SCSS
+                            </div>
+                            <div class="ui label margin">
+                                MATERIAL UI REACT
+                            </div>
+                        </section>
+                        <section>
+                            <h3>LANGUAGES</h3>
+                            <div class="tags small ">
+                                <div class="ui label position ">
+                                    ENGLISH
+                                    <div class="floating ui red label ">B2</div>
+                                </div>
+                                <div class="ui label position ">
+                                    GERMAN
+                                    <div class="floating ui yellow label ">A2</div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+</body>
 
 </html>
